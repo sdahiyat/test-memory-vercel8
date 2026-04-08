@@ -1,0 +1,120 @@
+{
+  "schemaVersion": "cofabric.memory.scaffold.v1",
+  "fileTree": [
+    {
+      "path": "package.json",
+      "purpose": "Next.js app with Supabase, OpenAI, NextAuth, and Lucide icons",
+      "isEmpty": false
+    },
+    {
+      "path": "tsconfig.json",
+      "purpose": "TypeScript config with path aliases (@/*)",
+      "isEmpty": false
+    },
+    {
+      "path": "next.config.js",
+      "purpose": "Basic config with Unsplash image domain",
+      "isEmpty": false
+    },
+    {
+      "path": "postcss.config.js",
+      "purpose": "PostCSS configuration",
+      "isEmpty": false
+    },
+    {
+      "path": "tailwind.config.js",
+      "purpose": "Custom primary green color palette for nutrition theme",
+      "isEmpty": false
+    },
+    {
+      "path": "src/app/layout.tsx",
+      "purpose": "Root layout with NutriTrack branding and metadata",
+      "isEmpty": false
+    },
+    {
+      "path": "src/app/page.tsx",
+      "purpose": "Landing page with AI nutrition tracking features and CTAs",
+      "isEmpty": false
+    },
+    {
+      "path": "src/app/globals.css",
+      "purpose": "Tailwind base styles with CSS variables",
+      "isEmpty": false
+    },
+    {
+      "path": ".env.example",
+      "purpose": "Environment variables for Supabase, NextAuth, and OpenAI",
+      "isEmpty": false
+    },
+    {
+      "path": "pr-docs/.gitkeep",
+      "purpose": "Placeholder for PR documentation directory",
+      "isEmpty": true
+    },
+    {
+      "path": "memory/.gitkeep",
+      "purpose": "Placeholder for memory directory",
+      "isEmpty": true
+    },
+    {
+      "path": "memory/project/.gitkeep",
+      "purpose": "Placeholder for project memory directory",
+      "isEmpty": true
+    },
+    {
+      "path": "memory/task/.gitkeep",
+      "purpose": "Placeholder for task memory directory",
+      "isEmpty": true
+    },
+    {
+      "path": "memory/agent/.gitkeep",
+      "purpose": "Placeholder for agent memory directory",
+      "isEmpty": true
+    },
+    {
+      "path": "memory/context/.gitkeep",
+      "purpose": "Placeholder for context memory directory",
+      "isEmpty": true
+    }
+  ],
+  "libraryExports": [],
+  "existingRoutes": [
+    {
+      "type": "page",
+      "path": "/",
+      "file": "src/app/page.tsx",
+      "httpMethods": null,
+      "isEmpty": false
+    }
+  ],
+  "databaseState": {
+    "migrationsExist": false,
+    "tables": []
+  },
+  "intentionallyEmpty": [
+    {
+      "file": "pr-docs/.gitkeep",
+      "intendedPurpose": "directory placeholder for PR documentation"
+    },
+    {
+      "file": "memory/.gitkeep",
+      "intendedPurpose": "directory placeholder for memory system"
+    },
+    {
+      "file": "memory/project/.gitkeep",
+      "intendedPurpose": "directory placeholder for project memory"
+    },
+    {
+      "file": "memory/task/.gitkeep",
+      "intendedPurpose": "directory placeholder for task memory"
+    },
+    {
+      "file": "memory/agent/.gitkeep",
+      "intendedPurpose": "directory placeholder for agent memory"
+    },
+    {
+      "file": "memory/context/.gitkeep",
+      "intendedPurpose": "directory placeholder for context memory"
+    }
+  ]
+}
